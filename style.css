@@ -1,0 +1,55 @@
+body{
+background-color: cadetblue; 
+margin: 0px;
+}
+h1{
+  font-family: sans-serif;
+    background-color: lemonchiffon;
+    border: pink;
+    border-style: dotted;
+    border-width: thick;
+}
+h3{
+  background-color: pink;  
+  border: lemonchiffon;
+  border-style: dotted;
+  border-width: thick;
+  max-width:350px ;
+}
+.grid{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+a{
+  padding: 10px;
+}
+.item {
+  position: relative;
+}
+.item p{
+  position: absolute;
+  opacity: 0;
+  font-size: inherit;
+  font-family: cursive;
+  font-weight: bold;
+  font-style: initial;
+  text-decoration: rgb(194, 134, 179);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background-color: violet;
+    border: lightsalmon;
+    border-style: initial;
+    border-width: thick;
+    max-width: 335px;
+}
+.item:hover p{
+  opacity: 1;
+
+}
+.item:hover img{
+  opacity: 0.33;
+}
